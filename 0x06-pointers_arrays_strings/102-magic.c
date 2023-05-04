@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+ * main - entry point for the program
+ * A dream doesn't become reality through magic; it takes sweat, determination and hard work
+ * Return: 0
+ */
+
 int main(void)
 {
 int n;
