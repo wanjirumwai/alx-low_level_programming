@@ -8,11 +8,26 @@
  *
  * Return: 1 if it is a palindrome, 0 it's not
  */
-int is_palindrome(char *s, int 1, int len)
-{
-	if (*(s + 1) != *(s + len - 1))
-		return (0);
-	if (1 >= len)
-		return (1);
-	return (check_pal(s, i + 1, len - 1));
+int find_strlen(char *s);
+int check_palindrome(char *s, int len, int index);
+int is_palindrome(char *s);
+
+/**
+ * find_strlen - Returns the length of a string
+ * @s: the string to be measured
+ *
+ * Return: the length of the string
+ */
+
+int find_strlen(char *s)
+{                                                                                                                                     
+        int len = 0;                                                                                                                  
+                                                                                                                                      
+        if (*(s + len))                                                                                                               
+        {                                                                                                                             
+                len++;                                                                                                                
+                len += find_strlen(s + len);                                                                                          
+        }                                                                                                                             
+                                                                                                                                      
+        return (len);                                                                                                                 
 }
