@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * main - formula that prints the minimum number of coins to make change for an amount of money
+ * main - formula that prints the minimum number of 
+ * coins to make change for an amount of money
  * @argc: number of arguments
  * @argv: array of arguments
  *
