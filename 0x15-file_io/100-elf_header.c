@@ -115,7 +115,6 @@ void print_data(unsigned char *e_ident)
 /**
  * print_version -This function Prints the version of an ELF header.
  * @e_ident: An array containing the ELF version.
- *  
  */
 void print_version(unsigned char *e_ident)
 {
@@ -134,7 +133,7 @@ void print_version(unsigned char *e_ident)
 }
 
 /**
- * print_osabi -This function will show how to 
+ * print_osabi -This function will show how to
  * Print the OS/ABI of an ELF header.
  * @e_ident: An array containing the ELF version.
  */
